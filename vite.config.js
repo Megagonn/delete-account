@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   preview: {
+    allowedHosts: ['delete-account-1adm.onrender.com'],
     host: true,
     port: process.env.PORT || 4173,
     strictPort: true,
